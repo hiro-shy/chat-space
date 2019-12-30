@@ -1,0 +1,28 @@
+.side-bar
+  .header
+    .user
+      %p.user__name
+        ひろし
+      %ul.user__icons
+        %li.list
+          = link_to "#" do
+            =icon('fa', 'edit',class: 'icon')
+        %li.list
+          = link_to "#" do
+            =icon('fa', 'cog',class: 'icon')
+  .groups
+    .group
+      %p.group__name
+        テスト
+      %p.group__message
+        まだメッセージがありません
+    .group
+      %p.group__name
+        開発中
+      %p.group__message
+        まだメッセージがありません
+    .group
+      %p.group__name
+        サンプル
+      %p.group__message
+        まだメッセージがありません

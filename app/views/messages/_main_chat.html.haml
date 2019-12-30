@@ -1,0 +1,53 @@
+.main-chat
+  .header
+    .header-left
+      .header-left__title
+        テスト
+      %ul.header-left__members
+        Member：
+        %li.member
+          メンバー名
+        %li.member
+          メンバー名
+        %li.member
+          メンバー名
+    .header-right
+      .header-right__button
+      = link_to "#" do
+        Edit
+  .messages
+    .message
+      .message-upper
+        .message-upper__user-name
+          メンバー
+        .message-upper__date
+          2019/12/30
+      .message-lower
+        .message-lower__content
+          メッセージ
+    .message
+      .message-upper
+        .message-upper__user-name
+          メンバー
+        .message-upper__date
+          2019/12/30
+      .message-lower
+        .message-lower__content
+          メッセージ
+    .message
+      .message-upper
+        .message-upper__user-name
+          メンバー
+        .message-upper__date
+          2019/12/30
+      .message-lower
+        .message-lower__content
+          メッセージ
+  .form
+    %form
+      %input.form__message
+      .form__mask
+        %label.form__mask__image
+          = icon('fa','image',class: 'icon')
+          %input.hidden{type: 'file'}
+      %input.form__submit{type: 'submit', value: 'Send'}
