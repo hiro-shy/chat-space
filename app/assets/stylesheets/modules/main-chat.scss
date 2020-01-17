@@ -54,6 +54,9 @@
       }
     }
   }
+  .form form {
+    display: flex;
+}
   .form{
     height: 90px;
     background-color: #d2d2d2;
@@ -82,6 +85,7 @@
       }
     }
     &__submit{
+      display: flex;
       background-color: #38aef0;
       color: white;
       float: right;
@@ -89,7 +93,6 @@
       height: 50px;
       margin-left: 15px;
       padding: 0 30px;
-      display: flex;
     }
   }
 }
