@@ -30,7 +30,6 @@
     }
   }
   .groups{
-    text-decoration: none;
     background-color: #2f3e51;
     height: calc(100vh - 100px);
     padding: 0 20px;
@@ -38,16 +37,20 @@
     .group{
       box-sizing: border-box;
       padding: 20px 0 20px;
-      color: #ffffff;
       &__name{
         font-size: 15px;
         padding: 0 0 5px;
+        color: white;
         text-decoration: none;
       }
       &__message{
         font-size: 11px;
+        color: white;
         text-decoration: none;
       }
     }
   }
+  a {
+    text-decoration: none;
+    }
 }
